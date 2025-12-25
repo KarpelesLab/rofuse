@@ -45,12 +45,12 @@ const InitOutSize = 64
 
 // Default values for initialization
 const (
-	DefaultMaxReadahead = 128 * 1024 // 128 KB
-	DefaultMaxWrite     = 128 * 1024 // 128 KB
-	DefaultMaxBackground = 12
+	DefaultMaxReadahead        = 128 * 1024 // 128 KB
+	DefaultMaxWrite            = 128 * 1024 // 128 KB
+	DefaultMaxBackground       = 12
 	DefaultCongestionThreshold = 9
-	DefaultTimeGran = 1 // Nanosecond precision
-	DefaultMaxPages = 32 // 32 * 4096 = 128 KB
+	DefaultTimeGran            = 1  // Nanosecond precision
+	DefaultMaxPages            = 32 // 32 * 4096 = 128 KB
 )
 
 // MinBufferSize is the minimum buffer size for reading FUSE requests.

@@ -3,7 +3,7 @@ package proto
 // FUSE operation codes
 const (
 	OpLookup        uint32 = 1
-	OpForget        uint32 = 2  // No reply
+	OpForget        uint32 = 2 // No reply
 	OpGetattr       uint32 = 3
 	OpSetattr       uint32 = 4
 	OpReadlink      uint32 = 5

@@ -18,7 +18,7 @@ type Coordinator struct {
 	workers   map[int]*Worker
 	workersMu sync.RWMutex
 
-	closed bool
+	closed  bool
 	closeMu sync.Mutex
 }
 
